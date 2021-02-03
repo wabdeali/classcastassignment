@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import RightBar from './components/rightbar/RightBar';
 
 function App() {
