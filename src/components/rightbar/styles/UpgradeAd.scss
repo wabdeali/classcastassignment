@@ -1,0 +1,46 @@
+@import '../../../variables.scss';
+
+.upgrade-card {
+    background: #FFFBF0;
+    margin: 20px 20px 10px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(240, 220, 47);
+    border-radius: 5px;
+
+    box-shadow: 0 0 20px -10px  rgb(240, 220, 47);
+
+    transition: 0.1s ease-in-out;
+        
+    &:hover {
+        transform: scale(1.02);
+    }
+}
+
+.upgrade-img {
+   height: 100px;
+}
+
+.upgrade-body {
+    text-align: center;
+
+    p {
+        margin: 5px 10px;
+        font-size: 0.8em;
+        font-weight: $light-weight;
+    }
+    .signup-button {
+        background:rgb(228, 208, 32);
+        border: none;
+        padding: 5px 8px;
+        border-radius: 3px; 
+        transition: 0.1s ease-in-out;
+        color: white;
+        
+        &:hover {
+            transform: scale(1.02);
+            cursor: pointer;
+        }
+    }
+}

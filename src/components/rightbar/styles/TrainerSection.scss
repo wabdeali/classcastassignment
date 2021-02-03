@@ -1,0 +1,72 @@
+@import '../../../variables.scss'; 
+
+.trainerSection-container {
+    padding: 10px 0 5px; 
+    background: #F3F3F3;
+    border-radius: 10px 0 0 0;
+    width: 100%;
+
+    h2 {
+        font-weight: $light-weight;
+        font-size: 1.1em;
+        margin-left: 20px;
+        margin-bottom: -5px;
+    }
+}
+
+.trainer-card {
+    margin: 10px 20px;
+    display: flex;
+    align-items: center;
+    font-size: 0.8em;
+
+    .trainer-icon {
+        width: 35px;
+    }
+
+    .small-button {
+        display: inline-block;
+        padding: 5px 8px;
+        margin: 0 3px;
+        margin-left: auto;
+        border: 1px solid rgb(182, 182, 182);
+        border-radius: 10px;
+        color: rgb(58, 58, 58);
+
+        &:hover {
+            transform: scale(1.02);
+            cursor: pointer;
+        }
+    }
+}
+
+.trainer-name {
+    margin-left: 5px;
+    line-height: 0.95em;
+    h1 {
+        font-size: 1em;
+        font-weight: $regular-weight;
+    }
+    p {
+        font-size: 0.7em;
+        font-weight: $light-weight;
+    }
+
+    .small-button {
+        display: inline-block;
+        padding: 5px 8px;
+        margin: 0 5px;
+        border: 1px solid rgb(182, 182, 182);
+        border-radius: 10px;
+
+        &:hover {
+            transform: scale(1.02);
+            cursor: pointer;
+
+            .notification-number {
+                left: 25px;
+                top: -8px;
+            }
+        }
+    }
+}

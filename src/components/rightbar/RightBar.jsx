@@ -3,13 +3,25 @@ import StatusSection from './StatusSection'
 import HealthSection from './HealthSection'
 import TrainingSection from './TrainingSection'
 import TrainerSection from './TrainerSection'
+import UpgradeAd from './UpgradeAd'
 
 function RightBar() {
     return (
-        <div className="rightbar-container">
+        <div className="rightbar-container"
+            style={{
+                display: 'flex',
+                flexDirection: 'column',
+                maxHeight: '92vh'
+            }}>
             <StatusSection />
-            <HealthSection />
-            <TrainingSection />
+            <div
+                style={{
+                    overflowY: 'scroll'
+                }}>
+                <HealthSection />
+                <UpgradeAd />
+                <TrainingSection />
+            </div>
             <TrainerSection />
         </div>
     )
