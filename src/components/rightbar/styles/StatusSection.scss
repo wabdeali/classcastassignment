@@ -6,7 +6,7 @@
     align-items: center;
     color: rgb(22, 22, 22);
     background: rgb(243, 243, 243);
-    border-radius: 0 0 5px 5px;
+    border-radius: 0 0 0 10px;
 
     .fa-user-circle {
         font-size: 2.2em;
@@ -20,7 +20,8 @@
 
         .name {
             font-size: 1em;
-            font-weight: $light-weight;
+            font-weight: $regular-weight;
+            color: rgb(26, 26, 26);
         }
         .account-status {
             font-size: 0.65em;

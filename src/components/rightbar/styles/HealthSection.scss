@@ -4,7 +4,7 @@
     padding: 10px 20px;
     margin-top: 30px;
     background: rgb(231, 231, 231);
-    border-radius: 0 0 5px 5px;
+    // border-radius: 10px;
 
     h2 {
         font-weight: $regular-weight;
@@ -36,11 +36,13 @@
     box-shadow: 0 0 10px -8px;
 
     .health-icon {
-        font-size: 2.5em;
+        font-size: 2.3em;
     }
     
     h1 {
         font-weight: $regular-weight;
+        font-size: 1.8em;
+        color: rgb(27, 27, 27);
     }
 
     p {

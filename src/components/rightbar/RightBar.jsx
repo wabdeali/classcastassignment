@@ -7,12 +7,7 @@ import UpgradeAd from './UpgradeAd'
 
 function RightBar() {
     return (
-        <div className="rightbar-container"
-            style={{
-                display: 'flex',
-                flexDirection: 'column',
-                maxHeight: '92vh'
-            }}>
+        <div className="rightbar-container">
             <StatusSection />
             <div
                 style={{
