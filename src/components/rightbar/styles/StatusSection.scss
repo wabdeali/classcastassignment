@@ -40,15 +40,12 @@
             margin: 0 5px;
             border: 1px solid rgb(182, 182, 182);
             border-radius: 10px;
+            transition: 0.1s ease-in-out;
 
             &:hover {
-                transform: scale(1.02);
+                background:#4C95FF;
                 cursor: pointer;
-
-                .notification-number {
-                    left: 25px;
-                    top: -8px;
-                }
+                color: white;
             }
         }
 
