@@ -1,0 +1,68 @@
+@import '../../../variables.scss';
+
+.statusSection-container {
+    margin-top: 10px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    color: rgb(22, 22, 22);
+
+    .fa-user-circle {
+        font-size: 2.2em;
+        color: #4C95FF;
+    }
+
+    .name-container {
+        margin-left: 10px;
+        letter-spacing: 0.02em;
+        line-height: 0.95em;
+
+        .name {
+            font-size: 1em;
+            font-weight: $light-weight;
+        }
+        .account-status {
+            font-size: 0.65em;
+            font-weight: $light-weight;
+
+        }
+    }
+
+    .button-container {
+        margin-left: auto;
+        position: relative;
+
+        .small-button {
+            display: inline-block;
+            padding: 5px 8px;
+            margin: 0 5px;
+            border: 1px solid grey;
+            border-radius: 10px;
+
+            &:hover {
+                transform: scale(1.02);
+                cursor: pointer;
+
+                .notification-number {
+                    left: 25px;
+                    top: -8px;
+                }
+            }
+        }
+
+        .notification-number {
+            font-size: 0.6em;
+            color: white;
+            text-align: center;
+            display: inline-block;
+            width: 15px;
+            background: #FF7368;
+            border-radius: 50%;
+
+            position: absolute;
+            left: 30px;
+            top: -5px;
+        }
+    }
+}
+

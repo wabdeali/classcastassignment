@@ -1,5 +1,4 @@
 import React from 'react'
-import './styles/RightBar.scss'
 import StatusSection from './StatusSection'
 import HealthSection from './HealthSection'
 import TrainingSection from './TrainingSection'
